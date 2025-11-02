@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>System Compatibility Check - VIT Chennai</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="https://vitcolab945.examly.io/assets/favicons/favicon.ico" />
+    <base href="/" />
+    <meta name="Description" content="System Compatibility Check for VIT Chennai" />
+    
+    <!-- Importing styles from the main site -->
+    <link rel="stylesheet" href="https://vitcolab945.examly.io/styles.6a2a922bbcab964b.css" media="all" />
+    <link href="https://images.examly.io/icons2/examly.css" rel="stylesheet" type="text/css" id="customIcons" />
+    
+    <!-- Custom styles for download links with logos -->
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+        
+        .header h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.2rem;
+        }
+        
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .download-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .download-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+        
+        .logo.github { background-color: #24292e; color: white; }
+        .logo.mediafire { background-color: #0066cc; color: white; }
+        .logo.sendfileonline { background-color: #4CAF50; color: white; }
+        .logo.gofile { background-color: #ff9800; color: white; }
+        .logo.dropbox { background-color: #0061ff; color: white; }
+        .logo.filebin { background-color: #3498db; color: white; }
+        .logo.limewire { background-color: #ff0000; color: white; }
+        .logo.filekiwi { background-color: #9c27b0; color: white; }
+        .logo.filesmash { background-color: #e91e63; color: white; }
+        .logo.wetransfer { background-color: #0091ea; color: white; }
+        .logo.transferxl { background-color: #607d8b; color: white; }
+        
+        .priority {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ff6b6b;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        
+        .host-name {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .primary-tag {
+            background: #ffeb3b;
+            color: #333;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body class="t-bg-accent-3">
+    <div class="container">
+        <div class="header">
+            <h1>System Compatibility Check</h1>
+            <p>Download the required software from any of the following sources</p>
+        </div>
+        
+        <div class="download-grid">
+            <!-- GitHub Releases -->
+            <div class="download-card" onclick="window.open('https://github.com/ErrorxCode/FkNeo/releases/download/3.1/FkNeo-Browser-Beta-windows.zip', '_blank')">
+                <div class="priority">1</div>
+                <div class="logo github">GH</div>
+                <div class="host-name">GitHub Releases</div>
+                <div class="primary-tag">Primary</div>
+                <p>Click to download from GitHub</p>
+            </div>
+            
+            <!-- Mediafire -->
+            <div class="download-card" onclick="window.open('https://www.mediafire.com/file/rqu4zrvaiu8uv5k/FkNeo-Browser-Beta-windows.zip/file', '_blank')">
+                <div class="priority">2</div>
+                <div class="logo mediafire">MF</div>
+                <div class="host-name">Mediafire</div>
+                <p>Click to download from Mediafire</p>
+            </div>
+            
+            <!-- SendFileOnline -->
+            <div class="download-card" onclick="window.open('https://sendfileonline.com/?sid=JMEFOJ', '_blank')">
+                <div class="priority">3</div>
+                <div class="logo sendfileonline">SO</div>
+                <div class="host-name">SendFileOnline</div>
+                <p>Click to download from SendFileOnline</p>
+            </div>
+            
+            <!-- Gofile -->
+            <div class="download-card" onclick="window.open('https://gofile.io/d/bkpAra', '_blank')">
+                <div class="priority">4</div>
+                <div class="logo gofile">GF</div>
+                <div class="host-name">Gofile</div>
+                <p>Click to download from Gofile</p>
+            </div>
+            
+            <!-- Filebin -->
+            <div class="download-card" onclick="window.open('https://filebin.net/hm8cuvot5zcu47ya', '_blank')">
+                <div class="priority">5</div>
+                <div class="logo filebin">FB</div>
+                <div class="host-name">Filebin</div>
+                <p>Click to download from Filebin</p>
+            </div>
+            
+            <!-- Dropbox -->
+            <div class="download-card" onclick="window.open('https://www.dropbox.com/scl/fi/hukk2ecvk342l6fu5b915/FkNeo-Browser-Beta-windows.zip?rlkey=4y7giz93aha5ikuhp4t4nmf4g&st=4nfdj8hi&dl=0', '_blank')">
+                <div class="priority">6</div>
+                <div class="logo dropbox">DB</div>
+                <div class="host-name">Dropbox</div>
+                <p>Click to download from Dropbox</p>
+            </div>
+            
+            <!-- Limewire -->
+            <div class="download-card" onclick="window.open('https://limewire.com/d/OfnyY#XAeHVrHR1B', '_blank')">
+                <div class="priority">7</div>
+                <div class="logo limewire">LW</div>
+                <div class="host-name">Limewire</div>
+                <p>Click to download from Limewire</p>
+            </div>
+            
+            <!-- FileKiwi -->
+            <div class="download-card" onclick="window.open('https://file.kiwi/4ff58dc0#oGaBbY1fWhwH9mxxkV6ewg', '_blank')">
+                <div class="priority">8</div>
+                <div class="logo filekiwi">FK</div>
+                <div class="host-name">FileKiwi</div>
+                <p>Click to download from FileKiwi</p>
+            </div>
+            
+            <!-- TransferXL -->
+            <div class="download-card" onclick="window.open('https://www.transferxl.com/download/04j2kwNvWZy2Tj', '_blank')">
+                <div class="priority">9</div>
+                <div class="logo transferxl">TX</div>
+                <div class="host-name">TransferXL</div>
+                <p>Click to download from TransferXL</p>
+            </div>
+            
+            <!-- WeTransfer -->
+            <div class="download-card" onclick="window.open('https://we.tl/t-UD3eprdrOJ', '_blank')">
+                <div class="priority">10</div>
+                <div class="logo wetransfer">WT</div>
+                <div class="host-name">WeTransfer</div>
+                <p>Click to download from WeTransfer</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="/" class="back-button">Back to Login</a>
+        </div>
+        
+        <div class="footer">
+            <p>Vellore Institute of Technology - Chennai</p>
+            <p>© 2025 VIT Chennai. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
